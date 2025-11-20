@@ -27,14 +27,29 @@ body, html {
     background-color: #1a237e;
     color: white;
     position: relative;
+    gap: 15px;
 }
 
-/* Removed .header img styling */
+/* HB LOGO (CSS-created) */
+.hb-logo {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #ffd700, #ff6b4a);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    font-size: 28px;
+    color: #1a237e;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
 /* Header Title */
 .header h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 2.4em;
+    font-size: 3em; /* increased font size */
     margin: 0;
     font-weight: 400;
     text-align: center;
@@ -194,6 +209,7 @@ footer::before {
 
 <!-- HEADER -->
 <div class="header">
+    <div class="hb-logo">HB</div>
     <h1>HOME BAKERY</h1>
 </div>
 
